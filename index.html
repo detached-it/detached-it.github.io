@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
+  <title>Detached</title>
+  <style>
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    body {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      animation-name: spin;
+      animation-duration: 10000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="./icon.svg" />
+  <script>
+    console.log('Nothing here for the public yet...');
+  </script>
+</body>
+
+</html>
